@@ -6,7 +6,7 @@ let attempt = document.getElementById('attempt');
 let result = document.getElementById('result');
 
 const Guess = {
-    max:30,// o numero maximo no random
+    max:10,// o numero maximo no random
     attemptsNumber: 0, // numero minimo do ramdom 
     numberDrawn: function randomValue(){
         return Math.round(Math.random() * this.max);
